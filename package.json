@@ -9,22 +9,24 @@
     "lint": "next lint || true"
   },
   "dependencies": {
+    "@radix-ui/react-slot": "^1.2.3",
+    "@tailwindcss/postcss": "^4.1.12",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.451.0",
     "next": "^15.0.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "tailwindcss": "^4.1.9",
-    "lucide-react": "^0.451.0",
-    "class-variance-authority": "^0.7.0",
-    "clsx": "^2.1.1",
+    "swr": "^2.2.5",
     "tailwind-merge": "^2.4.0",
-    "swr": "^2.2.5"
+    "tailwindcss": "^4.1.9"
   },
   "devDependencies": {
-    "typescript": "^5.5.4",
+    "@netlify/plugin-nextjs": "^5.8.1",
     "@types/node": "^20.12.12",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
-    "@netlify/plugin-nextjs": "^5.8.1"
+    "typescript": "^5.5.4"
   },
   "engines": {
     "node": ">=18.17 <=20.x"
